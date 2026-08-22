@@ -1,4 +1,4 @@
-/* === Шапка === */
+/* -- Шапка -- */
 .header {
   display: flex;
   flex-wrap: wrap;
@@ -53,7 +53,7 @@
 
 
 
-/* === Адрес === */
+/* -- Адрес -- */
 .address {
   flex: 0 0 auto;
   width: 33.3%;
@@ -64,7 +64,7 @@
 
 
 
-/* === Обложка === */
+/* -- Обложка -- */
 .cover {
   background: url("../images/cover.jpg") center/cover;
   color: #fff;
@@ -116,6 +116,8 @@
   background-color: rgba(0, 0, 0, 0.6);
 }
 
+
+
 /* Выравнивание */
 /* .alidning_left {
   text-align: left;
@@ -141,9 +143,6 @@
 
 
 
-
-
-
 /* Кнопка */
 .bid_button {
   font-size: 22px;
@@ -158,7 +157,7 @@
 
 
 
-/* === Лоты === */
+/* -- ЛОТЫ -- */
 .lots {
   padding: 180px 24px;
 }
@@ -204,7 +203,7 @@
 
 
 
-/* === Карточки === */
+/* Карточки */
 .card {
   height: inherit;
   color: white;
@@ -283,15 +282,6 @@
   width: 148px;
 }
 
-
-
-
-
-
-
-
-
-
 .about_title {
   text-transform: uppercase;
   font-size: 40px;
@@ -308,7 +298,8 @@
 }
 
 
-/* === ПОДВАЛ === */
+
+/* -- ПОДВАЛ -- */
 .footer {
   font-size: 18px;
   font-weight: 400;
