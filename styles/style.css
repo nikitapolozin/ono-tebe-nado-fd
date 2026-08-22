@@ -77,7 +77,20 @@
   text-transform: uppercase;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 16px;
+}
+
+.ono {
+
+}
+
+.tebe {
+  /* align-items: stretch; */
+  text-align: center;
+}
+
+.nado {
+  text-align: end;
 }
 
 .cover_description {
@@ -104,7 +117,7 @@
 }
 
 /* Выравнивание */
-.alidning_left {
+/* .alidning_left {
   text-align: left;
 }
 
@@ -119,12 +132,17 @@
 }
 
 .letter_spacing {
-  letter-spacing: 30%;
+  letter-spacing: 0,3rem;
 }
 
 .no_spacing {
   letter-spacing: 0;
-}
+} */
+
+
+
+
+
 
 /* Кнопка */
 .bid_button {
@@ -237,27 +255,42 @@
 
 
 
-/* === ОБ АУКЦИОНЕ === */
+/* -- ОБ АУКЦИОНЕ -- */
 .about {
   display: flex;
   gap: 25px;
   padding: 0 50px 182px 50px;
+  border: green solid 1px;
 }
 
+/* .about_column:last-child {
+  margin-top: 67px;
+} */
 .about_column:last-child {
-  margin-top: 103px;
+  border: red solid 1px;
+  margin-top: 64px;
 }
 
-.about_logo {
+
+.about_logo {  
   background-color: #000;
   border-radius: 50%;
-  margin: 0 95px;
+  margin: 0 34px;
   padding: 63px 46px;
 }
 
 .about_logo_image {
   width: 148px;
 }
+
+
+
+
+
+
+
+
+
 
 .about_title {
   text-transform: uppercase;
